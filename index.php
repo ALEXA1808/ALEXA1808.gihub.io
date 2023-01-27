@@ -108,7 +108,7 @@ if(isset($_POST['btn'])){
 </style>
 
 <body>
-    <form action="" method="post">
+    <form action="index.php" method="post">
         <input type="number" placeholder="ingrese su salario" name="salario">
         <button type="submit" name="btn">calcular</button>
     </form>
